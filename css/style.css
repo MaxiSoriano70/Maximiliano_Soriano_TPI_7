@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header{
+    align-items: center;
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.logo p{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 10px;
+}
+
+.pizza{
+    color: #39B24A;
+}
+
+.front{
+    color: #FC200C;
+}
+
+nav ul li{
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 5px;
+    text-decoration: none;
+}
+
+main{
+    background-color: #E5E5E5;
+    padding: 25px 10px;
+}
+
+.banner{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.envio-gratis{
+    border-radius: 25px;
+    flex-grow: 0.2;
+    height: 450px;
+    position: relative;
+}
+
+.envio-gratis p{
+    color: #FC200C;
+    font-size: 24px;
+    font-weight: 700;
+    left: 25px;
+    position: absolute;
+    top: 25px;
+}
+
+.envio-gratis .comprando{
+    color: #fff;
+}
+
+.delivery{
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+}
+
+.podio-pizzas{
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.4;
+    height: 450px;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.podio-pizzas p{
+    color:#FC200C;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.descripcion{
+    align-items: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.podio p{
+    color: #222;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.podio ol{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.lista-five-pizzas li{
+    margin-bottom: 20px;
+}
+
+.img-podio img{
+    height: 200px;
+    width: 115px;
+}
+
+footer{
+    background-color: #222;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lista-footer ul{
+    color: #fff;
+    list-style: none;
+}
+
+.lista-footer ul li{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 7px 0;
+}
